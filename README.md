@@ -5,7 +5,9 @@ Este repositorio contiene las pruebas automatizadas desarrolladas con Playwright
 Antes de ejecutar las pruebas, asegúrate de tener los siguientes requisitos instalados:
 
 Node.js: Si no lo tienes instalado, puedes descargarlo desde [aquí](https://nodejs.org/en).
+
 Git: Para clonar el repositorio. Puedes descargarlo desde [aquí](https://git-scm.com/).
+
 Playwright: Se instalará a través de npm (ver instrucciones abajo).
 
 ## Instalación
@@ -69,6 +71,7 @@ src/
 │   └── [imágenes descargadas durante las pruebas]
 ├── data/
 │   └── Datos-pruebas.xlsx
+
 
 apiTests: Contiene las pruebas automatizadas para las API (por ejemplo, getPokemon.test.ts y postPlaceholder.test.ts).
 webTests: Contiene las pruebas automatizadas para la interfaz web (por ejemplo, pokemonWikipedia.test.ts).
