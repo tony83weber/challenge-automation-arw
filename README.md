@@ -54,24 +54,6 @@ Este comando abrirá el reporte en tu navegador, donde podrás ver el detalle de
 ### Estructura del proyecto
 El proyecto sigue una estructura organizada para facilitar la ubicación y mantenimiento de las pruebas. A continuación, se describe la estructura de carpetas:
 
-src/
-│
-├── tests/
-│   ├── apiTests/
-│   │   ├── getPokemon.test.ts
-│   │   └── postPlaceholder.test.ts
-│   └── webTests/
-│       └── pokemonWikipedia.test.ts
-│
-├── helpers/
-│   └── encryptionHelper.ts
-├── pages/
-│   └── WikipediaPage.ts
-├── images/
-│   └── [imágenes descargadas durante las pruebas]
-├── data/
-│   └── Datos-pruebas.xlsx
-
 
 apiTests: Contiene las pruebas automatizadas para las API (por ejemplo, getPokemon.test.ts y postPlaceholder.test.ts).
 webTests: Contiene las pruebas automatizadas para la interfaz web (por ejemplo, pokemonWikipedia.test.ts).
