@@ -56,8 +56,13 @@ El proyecto sigue una estructura organizada para facilitar la ubicación y mante
 
 
 apiTests: Contiene las pruebas automatizadas para las API (por ejemplo, getPokemon.test.ts y postPlaceholder.test.ts).
+
 webTests: Contiene las pruebas automatizadas para la interfaz web (por ejemplo, pokemonWikipedia.test.ts).
+
 helpers: Contiene funciones auxiliares como encryptionHelper.ts para manejar la encriptación de claves.
+
 pages: Contiene clases de Page Object Model (POM) como WikipediaPage.ts para manejar la interacción con páginas web.
+
 images: Carpeta donde se guardan las imágenes descargadas durante las pruebas.
+
 data: Carpeta que contiene archivos de datos, como el archivo Excel con los nombres de los Pokémon.
